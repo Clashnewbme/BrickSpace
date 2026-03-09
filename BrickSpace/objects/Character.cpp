@@ -25,14 +25,14 @@ void Character::draw()
 
     glTranslatef(x, y, z);
 
-    // torso
+    // these are all the body part s, for example this is the torso, change the colors if you want ig idk
     glColor3f(0.2f,0.6f,1.0f);
     glPushMatrix();
     glScalef(1,1.2,0.5);
     glutSolidCube(1);
     glPopMatrix();
 
-    // head (round now)
+    // head
     glColor3f(1,0.8f,0.6f);
     glPushMatrix();
     glTranslatef(0,1,0);
