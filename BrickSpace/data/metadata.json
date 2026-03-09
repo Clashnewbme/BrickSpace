@@ -1,16 +1,10 @@
 {
   "games": [
     {
-      "name": "ExampleGame",
+      "name": "Demo",
       "visits": 123,
       "likes": 10,
-      "file": "data/games/ExampleGame.world"
-    },
-    {
-      "name": "Sandbox",
-      "visits": 456,
-      "likes": 20,
-      "file": "data/games/Sandbox.world"
+      "file": "data/games/Demo.world"
     }
   ]
 }
