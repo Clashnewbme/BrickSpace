@@ -77,7 +77,7 @@ void Engine::start(int argc, char** argv)
     gluPerspective(70.0, 800.0/600.0, 0.1, 1000.0);
     glMatrixMode(GL_MODELVIEW);
 
-    workspace.loadExample();
+    workspace.loadDemo();
 
     glutDisplayFunc(displayWrapper);
     glutIdleFunc(updateWrapper);
