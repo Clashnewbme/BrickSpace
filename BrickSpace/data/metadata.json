@@ -2,8 +2,6 @@
   "games": [
     {
       "name": "Demo",
-      "visits": 123,
-      "likes": 10,
       "file": "data/games/Demo.world"
     }
   ]
