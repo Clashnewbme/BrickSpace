@@ -1,11 +1,7 @@
-
-#!/bin/bash
-
 set -e
 
 echo "Setting up BrickSpace..."
 
-# Download raylib locally if not present
 if [ ! -d "raylib" ]; then
     echo "Downloading raylib..."
     git clone https://github.com/raysan5/raylib.git
